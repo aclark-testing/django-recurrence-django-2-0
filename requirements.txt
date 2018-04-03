@@ -1,0 +1,4 @@
+Django
+dj-database-url
+psycopg2
+-e git+git@github.com:zeitbyte/django-recurrence.git#egg=recurrence
