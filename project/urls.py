@@ -26,6 +26,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('jsi18n/',
-         JavaScriptCatalog.as_view(packages=['recurrence']),
+         JavaScriptCatalog.as_view(**js_info_dict),
          name='javascript-catalog'),
 ]
