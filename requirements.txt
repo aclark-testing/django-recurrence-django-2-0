@@ -1,4 +1,4 @@
-Django
+Django==1.11.12
 dj-database-url
 psycopg2
--e git+git@github.com:zeitbyte/django-recurrence.git#egg=recurrence
+django-recurrence
