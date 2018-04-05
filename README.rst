@@ -1,1 +1,1 @@
-.. image:: error.png
+.. image:: screenshot.png
